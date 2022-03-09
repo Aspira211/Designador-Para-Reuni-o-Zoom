@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Designador</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="index.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" href="short.ico" type="image/x-icon">
+    </head>
+    <body>
+        
+        <div class="box" id="box">
+        
+            <div class="select">
+                <h1>Designador 1.0</h1>
+                <label>Anfitrião</label>
+                <select id="valor" class="option"> 
+                <option value="David Borba">David Borba</option>
+                <option value="Carlos Lucas">Carlos Lucas</option>
+                <option value="Wellington Oliveira">Wellington Oliveira</option>
+                <option value="Douglas Albuquerque">Douglas Albuquerque</option>
+                <option value="Davi Souza">Davi Souza</option>
+                <option value="Montesuma">Montesuma</option>
+                </select><br><br>
+
+                <label>ConAnfitrião</label>
+                <select id="valor2" class="option"> 
+                    <option value="Carlos Lucas">Carlos Lucas</option>
+                    <option value="David Borba">David Borba</option>
+                    <option value="Wellington Oliveira">Wellington Oliveira</option>
+                    <option value="Douglas Albuquerque">Douglas Albuquerque</option>
+                    <option value="Montesuma">Montesuma</option>
+                    <option value="Davi Souza">Davi Souza</option>
+                    </select><br><br>
+
+
+            <input type="submit" class="submit" value="Defina o Anfitrião" onclick="capture()"><br><br>
+            <input type="submit" class="submit" value="Defina o CoAnfitrião" onclick="capture2()"><br><br>
+            <label>Anfitrião:</label><p id="value-one" class="txt"></p>
+            <label>CoAnfitrião:</label><p id="value-two" class="txt"></p>
+            <button  class="btn" id="button" onclick="copyToClipboard()">Copiar</button><br>
+            <button class="btn"><a href="https://web.whatsapp.com/" target="_blank"> Enviar Pelo Whatsapp</a></button>
+        </div>
+        </div>
+        <!-- Desenvolvido Por David Borba -->
+    </body>
+
+
+</html>
